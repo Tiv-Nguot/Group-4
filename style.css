@@ -7,7 +7,7 @@ body{
     background: #000;
 }
 nav{
-    background: teal;
+    background: red;
     padding: 15px;
     display: flex;
     justify-content: center;
