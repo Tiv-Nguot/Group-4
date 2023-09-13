@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+body{
+    background: #000;
+}
+nav{
+    background: teal;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background: rgb(128, 88, 88);
+    border-radius: 10px;
+}
+.boxes-cnt{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+.bx-cnt{
+    padding: 150px;
+    background: mediumturquoise;
+    border-radius: 10px;
+    font-size: 50px;
+
+}
+.bx-cnt:hover{
+    background: orange;
+    color: white;
+}
